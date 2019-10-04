@@ -1,0 +1,10 @@
+<carousel [interval]="carouselInterval">
+    <slide *ngFor="let slide of news">
+        <div class="slide text-center">
+            <div class="content">
+                <h1 [innerHtml]="slide.title" class="carousel-title"></h1>
+                <div class="content carousel-subtitle" [innerHtml]="slide.subtitle"></div>
+            </div>
+        </div>
+    </slide>
+</carousel>

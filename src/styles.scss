@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/styles/globals/exports';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: calc(1em + 1vw);
+}
+
+body, html {
+    height: 100%;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+
+.breadcrumb {
+    border-radius: 0;
+    background-color: lighten($color: $blue-primary-color, $amount: 30%);
+    border-bottom: 3px solid $blue-primary-color;
+}
+
+.video-button {
+    margin: 1em;
+    font-size: calc(0.3em + 0.2vw);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid $blue-primary-color;
+    border-radius: 50%;
+    background-color: lighten($color: $blue-primary-color, $amount: 40%);
+    color: black;
+    &:hover {
+        color: black;
+        background-color: lighten($color: $blue-primary-color, $amount: 35%);
+        border: 1px solid lighten($color: $blue-primary-color, $amount: 20%);
+    }
+}
+
+.button {
+    margin: 1em;
+    font-size: calc(0.5em + 0.6vw);
+    color: black;
+    font-weight: bold;
+    background-color: lighten($color: $blue-primary-color, $amount: 50%);
+    border: 2px solid lighten($color: $blue-primary-color, $amount: 50%);
+    &:hover {
+        color: black;
+        background-color: lighten($color: $blue-primary-color, $amount: 40%);
+        border: 2px solid $blue-primary-color;
+    }
+}

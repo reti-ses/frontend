@@ -1,0 +1,14 @@
+@import '../../../assets/styles/globals/exports';
+@import '../cards/cards.scss';
+
+#home-container {
+    margin: 1em;
+    > .col,
+    > [class*="col-"] {
+        padding: 1em;
+    }
+}
+
+#news-card-title {
+    border-radius: 0.25rem 0.25rem 0 0;
+}

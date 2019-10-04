@@ -1,0 +1,12 @@
+@import '../../../assets/styles/globals/exports';
+
+#outer {
+    padding: 2em;
+    margin: 0 auto;
+    div {
+        font-size: calc(0.6em + 0.1vw);
+        a {
+            text-decoration: none;
+        }
+    }
+}

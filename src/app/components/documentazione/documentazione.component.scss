@@ -1,0 +1,30 @@
+@import '../../../assets/styles/globals/exports';
+
+h1 {
+    width: 100%;
+    padding: 0.2em;
+    font-weight: bold;
+    font-size: calc(1.1em + 1.1vw);
+    border-bottom: 3px solid $blue-primary-color;
+    color: lighten($color: $blue-primary-color, $amount: 80%);
+    background-color: lighten($color: $blue-primary-color, $amount: 40%);
+}
+
+#inner {
+    margin: 0;
+    padding: 2em;
+    font-size: calc(0.6em + 0.1vw);
+    ul {
+        list-style: decimal;
+        li {
+            padding: 0.5em;
+            a {
+                text-decoration: none;
+                color: lighten($color: $blue-primary-color, $amount: 20%);
+                &:hover {
+                    color: lighten($color: $blue-primary-color, $amount: 10%);
+                }
+            }
+        }
+    }
+}

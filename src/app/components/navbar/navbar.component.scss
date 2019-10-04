@@ -1,0 +1,14 @@
+@import '../../../assets/styles/globals/exports';
+
+#second-navbar {
+    background-color: lighten($blue-primary-color, 25%);
+    border-bottom: 3px solid $blue-primary-color;
+    .nav-link {
+        padding: 0;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        color: white;
+        font-size: calc(0.5em + 0.1vw);
+        font-weight: bold;
+    }
+}
