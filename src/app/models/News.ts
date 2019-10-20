@@ -13,7 +13,7 @@ export class News {
             title: 'Seconda notizia',
             subtitle: 'descrizione seconda notizia',
             date: moment(Date.now()).format('YYYY-MM-DD')
-        },
+        }, 
         {
             title: 'Terza notizia',
             subtitle: 'descrizione terza notizia',

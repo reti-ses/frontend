@@ -44,8 +44,8 @@ body, html {
 }
 
 .button {
-    margin: 1em;
-    font-size: calc(0.5em + 0.6vw);
+    margin: 0.6em;
+    font-size: calc(0.4em + 0.5vw);
     color: black;
     font-weight: bold;
     background-color: lighten($color: $blue-primary-color, $amount: 50%);

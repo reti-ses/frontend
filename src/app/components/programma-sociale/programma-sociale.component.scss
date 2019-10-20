@@ -1,5 +1,15 @@
 @import '../../../assets/styles/globals/exports';
 
+h1 {
+    margin: 0;
+    padding: 0.2rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: calc(1.1em + 1.1vw);
+    color: $blue-primary-color;
+    border-bottom: 2px solid $blue-primary-color;
+}
+
 #inner {
     font-size: calc(0.4em + 0.5vw);
     #inner-left {

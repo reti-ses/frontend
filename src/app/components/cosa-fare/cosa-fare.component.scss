@@ -4,7 +4,7 @@ h1 {
     width: 100%;
     padding: 0.2em;
     font-weight: bold;
-    font-size: calc(1.1em + 1.1vw);
+    font-size: calc(1em + 1vw);
     border-bottom: 3px solid $blue-primary-color;
     color: lighten($color: $blue-primary-color, $amount: 80%);
     background-color: lighten($color: $blue-primary-color, $amount: 40%);

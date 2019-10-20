@@ -1,5 +1,6 @@
 <div class="row align-items-center justify-content-center text-justify list-group" id="outer">
-    <div class="col-10 col-sm-10">
+    <h1 class="text-center">News</h1>
+    <div class="col-10 col-sm-10"  id="inner">
         <a *ngFor="let n of news" routerLink="#" class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
                 <h5 [innerHTML]="n.title" class="mb-1"></h5>
