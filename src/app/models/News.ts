@@ -7,7 +7,8 @@ export class News {
         {
             title: 'VIDEO &laquo;BENESSERE e Comunit&agrave; Reti SES&raquo;',
             subtitle: '&Egrave; disponibile il video su YouTube',
-            date: moment(Date.now()).format('YYYY-MM-DD')
+            date: moment(new Date(2020, 0, 19)).format('DD-MM-YYYY'),
+            link: 'https://www.youtube.com/watch?v=8YbBkujwVa0'
         }, /*
         {
             title: 'Seconda notizia',
