@@ -2,8 +2,8 @@
     <slide *ngFor="let slide of news">
         <div class="slide text-center">
             <div class="content">
-                <h1 [innerHtml]="slide.title" class="carousel-title"></h1>
-                <div class="content carousel-subtitle" [innerHtml]="slide.subtitle"></div>
+                <h1 [innerHtml]="slide.subtitle" class="carousel-subtitle"></h1>
+                <div class="content carousel-title" [innerHtml]="slide.title"></div>
             </div>
         </div>
     </slide>
