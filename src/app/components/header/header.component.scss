@@ -18,7 +18,7 @@
     margin: 0;
     padding-right: 1%;
     a {
-        font-size: calc(0.7em + 0.7vw);
+        font-size: calc(0.7em + 0.5vw);
         text-decoration: none;
         color: $yellow-primary-color;
         font-weight: bold;
@@ -31,7 +31,7 @@
 #navbar-sub-brand {
     margin: 0;
     color: $yellow-primary-color;
-    font-size: calc(0.4em + 0.2vw);
+    font-size: calc(0.4em + 0.5vw);
     font-weight: bold;
     font-style: italic;
 }
